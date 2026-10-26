@@ -1,0 +1,174 @@
+# ==============================================================================
+# FoodVerse AI — Comprehensive .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Secrets & Environment Configurations (CRITICAL)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Explicitly keep example environment templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ------------------------------------------------------------------------------
+# Python & Bytecode
+# ------------------------------------------------------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+venv*/
+.venv/
+.venv*/
+env/
+env*/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Packaging & Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# Testing, Coverage & Linters
+# ------------------------------------------------------------------------------
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ------------------------------------------------------------------------------
+# Node.js, NPM & Frontend Artifacts
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+out/
+.next/
+.nuxt/
+.turbo/
+.cache/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# Large Binary Model Checkpoints & Dev Backups
+# ------------------------------------------------------------------------------
+*.bak
+*.backup
+*.old
+*~
+*.pth.bak
+*.pt.bak
+*.bin.bak
+*.h5.bak
+*.onnx.bak
+
+# ------------------------------------------------------------------------------
+# Temporary Uploads, Media & Runtime Output
+# ------------------------------------------------------------------------------
+temp_*
+*.tmp
+*.temp
+temp_frames/
+temp_uploads/
+uploads/
+*.log
+logs/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------------------------
+# Database & Local Persistence
+# ------------------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+mongo-data/
+dump/
+
+# ------------------------------------------------------------------------------
+# IDE & Code Editor Files
+# ------------------------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.iws
+*.swp
+*.swo
+
+# ------------------------------------------------------------------------------
+# Operating System Artifacts
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.fuse_hidden*
