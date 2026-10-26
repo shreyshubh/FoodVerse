@@ -97,7 +97,23 @@ export default function Sidebar({
       <aside className={`app-sidebar ${mobileOpen ? 'mobile-open' : ''}`} aria-label="Main Navigation">
         {/* Brand Header */}
         <div className="sidebar-brand">
-          <div className="brand-logo-wrap">
+          <div
+            className="brand-logo-wrap"
+            onClick={() => {
+              if (onCloseMobile) onCloseMobile();
+              onSelectTab('landing');
+            }}
+            style={{ cursor: 'pointer' }}
+            title="Go to FoodVerse Homepage"
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                if (onCloseMobile) onCloseMobile();
+                onSelectTab('landing');
+              }
+            }}
+          >
             <div className="brand-leaf-icon" aria-hidden="true">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
                 <path
