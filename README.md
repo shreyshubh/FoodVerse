@@ -1,24 +1,5 @@
 # 🍽️ FoodVerse AI — Next-Gen Multimodal Food Intelligence Platform
 
-<p align="center">
-  <img src="frontend/src/assets/hero.png" alt="FoodVerse AI Banner" width="480px" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
-</p>
-
-<p align="center">
-  <strong>An end-to-end, privacy-conscious AI platform unifying Computer Vision, Large Multimodal Models (LMMs), Agentic Workflows, and Food Safety Intelligence.</strong>
-</p>
-
-<p align="center">
-  <a href="#-the-5-core-ai-engines"><img src="https://img.shields.io/badge/AI%20Engines-5%20Integrated%20Pillars-1B3B2B?style=for-the-badge" alt="AI Engines"></a>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI"></a>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"></a>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/Groq%20Cloud-F05A28?style=for-the-badge&logo=fastapi&logoColor=white" alt="Groq LMM"></a>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/React%2018-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
-  <a href="#-test-suite--quality-assurance"><img src="https://img.shields.io/badge/Tests-76%2F76%20Passing-brightgreen?style=for-the-badge" alt="Tests"></a>
-</p>
-
----
 
 ## 📖 Table of Contents
 - [✨ Key Highlights](#-key-highlights)
